@@ -1,0 +1,1901 @@
+[ 2014-11-16T15:48:56+08:00 ] ::1 /jpb/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.012981s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.002940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2014-11-16T15:48:56+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.003781s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2014-11-16T15:49:05+08:00 ] ::1 /jpb/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002794s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_admin` WHERE ( email='admin' ) LIMIT 1   [ RunTime:0.002355s ]
+
+[ 2014-11-16T15:49:07+08:00 ] ::1 /jpb/admin.php/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.004218s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-11-16T15:49:07+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.005402s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2014-11-16T15:49:13+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html?rand=0.04462732141837478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002749s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2014-11-16T15:49:18+08:00 ] ::1 /jpb/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001891s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_admin` WHERE ( email='mingzhou.yang@gmail.com' ) LIMIT 1   [ RunTime:0.003135s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `email` = 'mingzhou.yang@gmail.com' ) LIMIT 1   [ RunTime:0.001318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_admin` WHERE ( `email` = 'mingzhou.yang@gmail.com' ) AND ( `is_active` = 1 ) LIMIT 1   [ RunTime:0.000886s ]
+SQL: UPDATE `jpb_admin` SET `last_login_at`=1416124158 WHERE ( id=1 ) [ RunTime:0.002311s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 113 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-11-16T15:49:21+08:00 ] ::1 /jpb/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002750s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001010s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.018919s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-11-16T15:49:23+08:00 ] ::1 /jpb/admin.php/Data/backup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.004198s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000737s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.003072s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+NOTIC: [2] Missing argument 1 for Home\Model\CommonModel::getTablesInfo(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/DataController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 72 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.021877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/d1483694aad6727fe1d53620d37f1382.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/d1483694aad6727fe1d53620d37f1382.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2014-11-16T15:49:24+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001582s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000969s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.002381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000456s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.003381s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.003044s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.001573s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.002424s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000379s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2014-11-16T15:49:26+08:00 ] ::1 /jpb/admin.php/Data/backup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.003793s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000800s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001583s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+NOTIC: [2] Missing argument 1 for Home\Model\CommonModel::getTablesInfo(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/DataController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 72 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.001135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/d1483694aad6727fe1d53620d37f1382.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/d1483694aad6727fe1d53620d37f1382.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2014-11-16T15:49:28+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001471s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000648s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.003118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000618s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.002636s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.003022s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000816s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.002227s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2014-11-16T15:49:32+08:00 ] ::1 /jpb/admin.php/Models/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001570s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000327s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000829s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 174 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 180 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2014-11-16T15:49:55+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001744s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000938s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000785s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000164s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001385s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001485s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.001251s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001365s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000190s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-11-16T15:50:00+08:00 ] ::1 /jpb/admin.php/Models/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001599s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000425s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 174 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 180 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-11-16T15:50:08+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001036s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000440s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.002249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000557s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001213s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001114s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000777s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001528s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000859s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2014-11-16T15:50:10+08:00 ] ::1 /jpb/admin.php/Models/show/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001280s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000340s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.000911s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001179s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.002434s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=1 ) LIMIT 1   [ RunTime:0.000723s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=2 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=3 ) LIMIT 1   [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2014-11-16T15:50:17+08:00 ] ::1 /jpb/admin.php/Models/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001356s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 67 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 174 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 180 行.
+NOTIC: [8] Undefined variable: model /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5d1cd751f5947d41e4275c79f9106d0b.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-11-16T15:50:22+08:00 ] ::1 /jpb/admin.php/Models/checkModelName.html?model_name=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001340s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000629s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [8] Undefined index: id /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001065s ]
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `name` = 'users' ) LIMIT 1   [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php on line 197 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::successReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 99 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 306 行.
+NOTIC: [8] Undefined variable: url /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 307 行.
+
+[ 2014-11-16T15:50:25+08:00 ] ::1 /jpb/admin.php/Models/checkTblName.html?tbl_name=users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000345s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [8] Undefined index: id /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001067s ]
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `tbl_name` = 'jpb_users' ) LIMIT 1   [ RunTime:0.000184s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php on line 220 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::successReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 114 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 306 行.
+NOTIC: [8] Undefined variable: url /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 307 行.
+
+[ 2014-11-16T15:50:32+08:00 ] ::1 /jpb/admin.php/Models/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002341s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000341s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::checkModel(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 76 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 248 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.004249s ]
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 253 行.
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `tbl_name` = 'jpb_users' ) LIMIT 1   [ RunTime:0.000629s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php on line 220 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 260 行.
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `name` = 'users' ) LIMIT 1   [ RunTime:0.000284s ]
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `tbl_name` = 'users' ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: ea_record_update /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( `menu_name` = '用户管理' ) LIMIT 1   [ RunTime:0.000116s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php on line 261 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: INSERT INTO `jpb_model` (`name`,`tbl_name`,`menu_name`,`is_inner`,`tbl_engine`,`description`,`has_pk`,`created_at`,`updated_at`) VALUES ('users','jpb_users','用户管理','0','InnoDB','','1',1416124232,1416124232) [ RunTime:0.000958s ]
+SQL: CREATE TABLE `jpb_users` (`id` int PRIMARY KEY NOT NULL AUTO_INCREMENT COMMENT '表主键',`created_at` int NOT NULL COMMENT '创建时间',`updated_at` int NOT NULL COMMENT '更新时间') ENGINE=InnoDB CHARSET=utf8 COMMENT='' [ RunTime:0.017101s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001043s ]
+SQL: INSERT INTO `jpb_field` (`model_id`,`name`,`comment`,`type`,`is_unique`,`is_index`,`is_system`,`created_at`,`updated_at`) VALUES (3,'id','表主键','INT',1,1,1,1416124232,1416124232) [ RunTime:0.000652s ]
+SQL: INSERT INTO `jpb_field` (`model_id`,`type`,`is_index`,`is_system`,`auto_fill`,`created_at`,`updated_at`,`name`,`comment`,`fill_time`) VALUES (3,'INT',1,1,'time',1416124232,1416124232,'created_at','创建时间','insert') [ RunTime:0.000429s ]
+SQL: INSERT INTO `jpb_field` (`model_id`,`type`,`is_index`,`is_system`,`auto_fill`,`created_at`,`updated_at`,`name`,`comment`,`fill_time`) VALUES (3,'INT',1,1,'time',1416124232,1416124232,'updated_at','更新时间','both') [ RunTime:0.002239s ]
+NOTIC: [2] opendir(/Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/~runtime.php): failed to open dir: No such file or directory /Users/yangmingzhou/www/jpb/Admin/Common/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `jpb_node` [ RunTime:0.001256s ]
+SQL: SELECT `id` FROM `jpb_node` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: INSERT INTO `jpb_node` (`pid`,`title`,`name`,`level`,`status`,`created_at`,`updated_at`) VALUES (1,'用户管理管理','Users',2,1,1416124232,1416124232) [ RunTime:0.000178s ]
+SQL: INSERT INTO `jpb_node` (`status`,`created_at`,`updated_at`,`pid`,`level`,`title`,`name`) VALUES (1,1416124232,1416124232,76,3,'用户管理管理','index'),(1,1416124232,1416124232,76,3,'添加用户管理','add'),(1,1416124232,1416124232,76,3,'创建用户管理','create'),(1,1416124232,1416124232,76,3,'编辑用户管理','edit'),(1,1416124232,1416124232,76,3,'更新用户管理','update'),(1,1416124232,1416124232,76,3,'删除用户管理','delete') [ RunTime:0.000278s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php on line 97 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-11-16T15:50:34+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001636s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001035s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.002370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000605s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001461s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000211s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.000763s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000193s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2014-11-16T15:50:40+08:00 ] ::1 /jpb/admin.php/Models/show/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001163s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001954s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001343s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001045s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=8 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=9 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=10 ) LIMIT 1   [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2014-11-16T15:50:42+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002230s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000637s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.001167s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 1 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001178s ]
+SQL: SELECT * FROM `jpb_model`  [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001600s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000313s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001006s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000272s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000171s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001049s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 351 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 352 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 353 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 354 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 355 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 370 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 376 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 403 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 404 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 407 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 417 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 419 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 440 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-11-16T17:50:48+08:00 ] ::1 /jpb/admin.php/Home/Fields/checkFieldLabel?field_label=cellphone&model_id=3&field_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001845s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000359s ]
+
+[ 2014-11-16T17:50:49+08:00 ] ::1 /jpb/admin.php/Home/Fields/checkFieldName?field_name=cellphone&model_id=3&field_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001049s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000253s ]
+
+[ 2014-11-16T17:50:50+08:00 ] ::1 /jpb/admin.php/Home/Fields/checkFieldName?field_name=cellphone&model_id=3&field_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001029s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000193s ]
+
+[ 2014-11-16T17:50:54+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001271s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/6547a228d6549f11f0ba9ac3673a577c.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+
+[ 2014-11-16T17:50:57+08:00 ] ::1 /jpb/admin.php/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001015s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2014-11-16T17:50:57+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001433s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-11-16T17:51:05+08:00 ] ::1 /jpb/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001850s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000389s ]
+
+[ 2014-11-16T17:51:07+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html?rand=0.2591397224459797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001435s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2014-11-16T17:51:07+08:00 ] ::1 /jpb/admin.php/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001644s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-11-16T17:51:07+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001655s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2014-11-16T17:51:08+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html?rand=0.17342016310431063
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-11-16T17:51:14+08:00 ] ::1 /jpb/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001066s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_admin` WHERE ( email='mingzhou.yang@gmail.com' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `email` = 'mingzhou.yang@gmail.com' ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_admin` WHERE ( `email` = 'mingzhou.yang@gmail.com' ) AND ( `is_active` = 1 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: UPDATE `jpb_admin` SET `last_login_at`=1416131474 WHERE ( id=1 ) [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 113 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-11-16T17:51:16+08:00 ] ::1 /jpb/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000842s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000190s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2014-11-16T17:51:18+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001168s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000288s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000196s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001156s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000168s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.000500s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000108s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000088s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2014-11-16T17:51:20+08:00 ] ::1 /jpb/admin.php/Models/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001903s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000607s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001666s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5a0a4aabca313fa69296d48a7739cff2.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/5a0a4aabca313fa69296d48a7739cff2.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2014-11-16T17:51:22+08:00 ] ::1 /jpb/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001101s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000321s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be an array, null given, called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001746s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` LIMIT 1   [ RunTime:0.000464s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001207s ]
+SQL: SELECT * FROM `jpb_model` LIMIT 0,10   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001457s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000486s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.000704s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000162s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000113s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2014-11-16T17:51:23+08:00 ] ::1 /jpb/admin.php/Models/show/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000939s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001399s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001815s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000938s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001599s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=8 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=9 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=10 ) LIMIT 1   [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-11-16T17:51:26+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001228s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 1 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001682s ]
+SQL: SELECT * FROM `jpb_model`  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001201s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.000782s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000128s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000084s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.000994s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 351 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 352 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 353 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 354 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 355 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 370 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 376 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 403 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 404 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 407 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 417 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 419 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 440 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2014-11-16T17:52:27+08:00 ] ::1 /jpb/admin.php/Home/Fields/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000939s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000338s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [2] Missing argument 2 for Home\Service\FieldService::checkField(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 76 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php 第 256 行.
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php on line 348 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.000994s ]
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php 第 268 行.
+NOTIC: [8] Undefined index: update_id /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_field` WHERE ( `name` = 'cellphone' ) AND ( `model_id` = 3 ) LIMIT 1   [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: update_id /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_field` WHERE ( `comment` = '手机' ) AND ( `model_id` = 3 ) LIMIT 1   [ RunTime:0.000188s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php on line 269 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT `tbl_name` FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001958s ]
+NOTIC: [2] Missing argument 2 for Home\Service\InputService::checkInput(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 84 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php 第 66 行.
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php 第 68 行.
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php on line 69 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: INSERT INTO `jpb_field` (`name`,`comment`,`type`,`length`,`value`,`is_index`,`is_unique`,`is_require`,`is_list_show`,`auto_filter`,`auto_fill`,`fill_time`,`relation_model`,`relation_field`,`relation_value`,`model_id`,`created_at`,`updated_at`) VALUES ('cellphone','手机','CHAR','11','','1','1','1','1','','','both','','','','3',1416131547,1416131547) [ RunTime:0.000330s ]
+SQL: ALTER TABLE `jpb_users` ADD COLUMN `cellphone` CHAR(11)  COMMENT '手机'  [ RunTime:0.027738s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: CREATE INDEX idx_cellphone ON `jpb_users`(`cellphone`) [ RunTime:0.014537s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: CREATE UNIQUE INDEX uniq_cellphone ON `jpb_users`(`cellphone`) [ RunTime:0.024073s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: INSERT INTO `jpb_input` (`remark`,`is_show`,`type`,`width`,`value`,`opt_value`,`height`,`editor`,`html`,`show_order`,`label`,`created_at`,`updated_at`,`field_id`) VALUES ('','1','text','11','','',0,'all','<input type=\'text\' class=\'input\' size=\'11\' name=\'users[cellphone]\' value=\'\' />','1','手机',1416131547,1416131547,11) [ RunTime:0.000434s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php on line 20 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-11-16T17:52:29+08:00 ] ::1 /jpb/admin.php/Models/show/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001798s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001141s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000287s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001097s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=8 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=9 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=10 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=11 ) LIMIT 1   [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-11-16T17:52:31+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000188s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 1 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001021s ]
+SQL: SELECT * FROM `jpb_model`  [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.000996s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001258s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000861s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000175s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 351 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 352 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 353 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 354 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 355 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 370 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 376 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 403 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 404 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 407 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 417 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 419 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 440 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2014-11-16T17:52:57+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.000903s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000290s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 1 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.000980s ]
+SQL: SELECT * FROM `jpb_model`  [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001434s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.001206s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000151s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001135s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 351 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 352 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 353 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 354 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 355 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 370 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 376 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 403 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 404 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 407 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 417 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 419 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 440 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2014-11-16T17:53:39+08:00 ] ::1 /jpb/admin.php/Home/Fields/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.002100s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000899s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000741s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [2] Missing argument 2 for Home\Service\FieldService::checkField(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 76 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php 第 256 行.
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php on line 348 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_model` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001528s ]
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php 第 268 行.
+NOTIC: [8] Undefined index: update_id /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_field` WHERE ( `name` = 'ref_id' ) AND ( `model_id` = 3 ) LIMIT 1   [ RunTime:0.000490s ]
+NOTIC: [8] Undefined index: update_id /Users/yangmingzhou/www/jpb/Admin/Home/Model/CommonModel.class.php 第 404 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jpb_field` WHERE ( `comment` = '推荐人屏宝号' ) AND ( `model_id` = 3 ) LIMIT 1   [ RunTime:0.000778s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php on line 269 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT `tbl_name` FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001814s ]
+NOTIC: [2] Missing argument 2 for Home\Service\InputService::checkInput(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 84 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php 第 66 行.
+NOTIC: [8] Undefined variable: id /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php 第 68 行.
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php on line 69 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: INSERT INTO `jpb_field` (`name`,`comment`,`type`,`length`,`value`,`is_index`,`is_unique`,`is_require`,`is_list_show`,`auto_filter`,`auto_fill`,`fill_time`,`relation_model`,`relation_field`,`relation_value`,`model_id`,`created_at`,`updated_at`) VALUES ('ref_id','推荐人屏宝号','INT','','','1','0','0','1','','','both','','','','3',1416131619,1416131619) [ RunTime:0.000235s ]
+SQL: ALTER TABLE `jpb_users` ADD COLUMN `ref_id` INT COMMENT '推荐人屏宝号'  [ RunTime:0.033713s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: CREATE INDEX idx_ref_id ON `jpb_users`(`ref_id`) [ RunTime:0.028297s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 106 行.
+NOTIC: [8] Undefined variable: au /Users/yangmingzhou/www/jpb/Admin/Home/Service/FieldService.class.php 第 50 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given /Users/yangmingzhou/www/jpb/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 77 行.
+SQL: INSERT INTO `jpb_input` (`remark`,`is_show`,`type`,`width`,`value`,`opt_value`,`height`,`editor`,`html`,`show_order`,`label`,`created_at`,`updated_at`,`field_id`) VALUES ('','1','text',20,'','',0,'all','<input type=\'text\' class=\'input\' size=\'20\' name=\'users[ref_id]\' value=\'\' />','1','推荐人屏宝号',1416131619,1416131619,12) [ RunTime:0.000813s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/InputService.class.php on line 20 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-11-16T17:53:41+08:00 ] ::1 /jpb/admin.php/Models/show/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001099s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000255s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001970s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000465s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `jpb_input` [ RunTime:0.001372s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=8 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=9 ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=10 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=11 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT `show_order` FROM `jpb_input` WHERE ( field_id=12 ) LIMIT 1   [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2014-11-16T17:53:50+08:00 ] ::1 /jpb/admin.php/Fields/add/model_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2048] Declaration of Home\Controller\FieldsController::show() should be compatible with that of Think\Controller::show() /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.001689s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000429s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/yangmingzhou/www/jpb/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from jpb_role as role,jpb_role_admin as user,jpb_access as access ,jpb_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/yangmingzhou/www/jpb/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 1 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Home\Service\ModelService::getAll(), called in /Users/yangmingzhou/www/jpb/Admin/Home/Controller/FieldsController.class.php on line 35 and defined /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 37 行.
+NOTIC: [8] Undefined variable: fields /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+NOTIC: [8] Undefined variable: order /Users/yangmingzhou/www/jpb/Admin/Home/Service/ModelService.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.001058s ]
+SQL: SELECT * FROM `jpb_model`  [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `jpb_field` [ RunTime:0.001012s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='1' )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `jpb_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `jpb_common` [ RunTime:0.000783s ]
+ERR: 0:Table 'jpb.jpb_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jpb_common`
+SQL: SELECT COUNT(*) FROM jpb_ads [ RunTime:0.000129s ]
+SQL: SELECT COUNT(*) FROM jpb_venue [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) FROM jpb_users [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `jpb_model` [ RunTime:0.000954s ]
+SQL: SELECT * FROM `jpb_model` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 67 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 351 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 352 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 353 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 354 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 355 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 370 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 376 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 403 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 404 行.
+NOTIC: [8] Undefined variable: field /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 407 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 417 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 419 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 440 行.
+NOTIC: [8] Undefined variable: input /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/e0858140b1334afa5713d807f695619e.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
