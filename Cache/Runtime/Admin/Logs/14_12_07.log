@@ -20,3 +20,60 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
 
+[ 2014-12-07T23:05:00+08:00 ] ::1 /jpb/admin.php/Ads/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.018055s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.004540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' /Users/yangmingzhou/www/jpb/Cache/Runtime/Admin/Cache/Home/6547a228d6549f11f0ba9ac3673a577c.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+
+[ 2014-12-07T23:05:02+08:00 ] ::1 /jpb/admin.php/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.006593s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2014-12-07T23:05:03+08:00 ] ::1 /jpb/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `jpb_admin` [ RunTime:0.025302s ]
+SQL: SELECT * FROM `jpb_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.001469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006875s ]
+

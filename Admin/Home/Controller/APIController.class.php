@@ -15,7 +15,7 @@ class APIController extends Controller {
 		/*
 
 		*/
-		return array('error'=>$error_id,'desc'=>$desc);
+		return array('status'=>0,'error'=>$error_id,'desc'=>$desc);
 	}
 
 	private function save_login_token($pid,$token)
@@ -42,7 +42,7 @@ class APIController extends Controller {
 		}else
 		{
 			$salt_md5 = md5($result['pid'] . $result['password'] . 'JinPingBao!' . time());
-			$token = array('token'=>$salt_md5,'cellphone'=>$result['cellphone'],'pid'=>$result['pid']);
+			$token = array('status'=>1,'token'=>$salt_md5,'cellphone'=>$result['cellphone'],'pid'=>$result['pid']);
 
 			$this->save_login_token($result['pid'],$salt_md5);
 
@@ -81,7 +81,11 @@ class APIController extends Controller {
 		//fix it later
 		if($i == 5) return $this->throw_error(1,'fail to create user');
 
-		return $user;
+		$salt_md5 = md5($user['pid'] . $user['password'] . 'JinPingBao!' . time());
+		$token = array('status'=>1,'token'=>$salt_md5,'cellphone'=>$user['cellphone'],'pid'=>$user['pid']);
+		$this->save_login_token($user['pid'],$salt_md5);
+
+		return $token;
 	}
 
 	private function apply_verify($data){
@@ -97,7 +101,7 @@ class APIController extends Controller {
 		$table->create();
 		$result = $table->add($verify);
 		if(!$result) return $this->throw_error(2,'create code failed');
-		return array('status'=>'ok');
+		return array('status'=>1);
 	}
 
 	public function request(){
