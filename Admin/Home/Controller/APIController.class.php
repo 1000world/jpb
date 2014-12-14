@@ -88,6 +88,23 @@ class APIController extends Controller {
 		return $token;
 	}
 
+	private function verify_code($data){
+		if(!isset($data["cellphone"])  || !isset($data["code"]))
+		{
+			return $this->throw_error(1,'cellphone or code is empty');
+		}
+
+		$cellphone = $data["cellphone"];
+		$code = $data["code"];
+		$table = M('verify_code');
+		$result = $table->where('cellphone = '.$cellphone.' AND code = '.$code. ' AND create_at >' .(time() - 600))->find();
+		if(empty($result)) return $this->throw_error(1,'invalid code');
+
+		$result["status"] = 1;
+		$table->save($result);
+		return array('status'=>1);
+	}
+
 	private function apply_verify($data){
 		if(!isset($data["cellphone"]))
 		{
@@ -95,7 +112,7 @@ class APIController extends Controller {
 		}
 		$verify = array();
 		$verify["cellphone"] = $data["cellphone"];
-		$verify["code"] = 1111;
+		$verify["code"] = 1111; //rand(1000,9999);
 		$verify["create_at"] = time();
 		$table = M('verify_code');
 		$table->create();
@@ -114,6 +131,9 @@ class APIController extends Controller {
 		{
 			case "apply_verify": //http://localhost/jpb/admin.php/API/request?action=apply_verify&cellphone=CELLPHONE
 				$response = json_encode($this->apply_verify($data));
+				break;
+			case "verify_code": //http://localhost/jpb/admin.php/API/request?action=verify_code&cellphone=CELLPHONE&code=CODE
+				$response = json_encode($this->verify_code($data));
 				break;
 			case "register": //http://localhost/jpb/admin.php/API/request?action=register&cellphone=CELLPHONE&password=PASSWORD&code=1111
 				$response = json_encode($this->register($data));
