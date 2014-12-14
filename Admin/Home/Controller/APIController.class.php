@@ -60,7 +60,7 @@ class APIController extends Controller {
 		$cellphone = $data["cellphone"];
 		$code = $data["code"];
 		$table = M('verify_code');
-		$result = $table->where('cellphone = '.$cellphone.' AND code = '.$code. ' AND create_at >' .(time() - 600))->find();
+		$result = $table->where('cellphone = '.$cellphone.' AND status = 1')->find();
 		if(empty($result)) return $this->throw_error(1,'invalid code');
 
 
