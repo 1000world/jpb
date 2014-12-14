@@ -52,7 +52,7 @@ class APIController extends Controller {
 
 	private function register($data){
 		$user = array();
-		if(!isset($data["cellphone"]) || !isset($data["password"]) || !isset($data["code"]))
+		if(!isset($data["cellphone"]) || !isset($data["password"]))
 		{
 			return $this->throw_error(1,'cellphone or password is empty');
 		}
@@ -135,7 +135,7 @@ class APIController extends Controller {
 			case "verify_code": //http://localhost/jpb/admin.php/API/request?action=verify_code&cellphone=CELLPHONE&code=CODE
 				$response = json_encode($this->verify_code($data));
 				break;
-			case "register": //http://localhost/jpb/admin.php/API/request?action=register&cellphone=CELLPHONE&password=PASSWORD&code=1111
+			case "register": //http://localhost/jpb/admin.php/API/request?action=register&cellphone=CELLPHONE&password=PASSWORD
 				$response = json_encode($this->register($data));
 				break;
 			case "login": //http://localhost/jpb/admin.php/API/request?action=login&account=CELLPHONE_OR_PID&password=PASSWORD
