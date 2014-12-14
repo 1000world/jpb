@@ -67,7 +67,7 @@ class APIController extends Controller {
 		$user["cellphone"] = $data["cellphone"];
 		$user["password"] = $data["password"];
 		$user["sex"] = isset($data["sex"])?$data["sex"]:0;
-		$user["age_id"] = isset($data["age_id"])?$data["age_id"]:6;
+		$user["age_id"] = isset($data["age_id"])?$data["age_id"]:0;
 		$user["ref_pid"] = isset($data["ref_pid"])?$data["ref_pid"]:0;
 		$user["created_at"] = $user["updated_at"] = time();
 		$users = D('users');
